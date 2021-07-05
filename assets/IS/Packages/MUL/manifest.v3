@@ -10,11 +10,4 @@
   <null name="requires"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
-  <value name="name">AdditionCICD</value>
-  <value name="build">1.0.3</value>
-  <null name="description"/>
-  <value name="time">2021-07-05 09:49:31 IST</value>
-  <value name="jvm_version">1.8.0_202</value>
-  <value name="publisher">DESKTOP-GFSH7AN</value>
-  <value name="patch_nums"></value>
 </Values>
