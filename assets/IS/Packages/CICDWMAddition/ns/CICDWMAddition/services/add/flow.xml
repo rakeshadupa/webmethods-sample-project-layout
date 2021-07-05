@@ -5,7 +5,7 @@
   <!-- nodes -->
 
 <INVOKE TIMEOUT="" SERVICE="pub.math:addInts" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT>---addition---</COMMENT>
+  <COMMENT>---addition---comment</COMMENT>
 
   <!-- nodes -->
 
