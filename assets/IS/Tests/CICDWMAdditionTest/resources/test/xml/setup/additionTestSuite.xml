@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="additionTestSuite.xml">
+    <webMethodsTestCase name="TC_01_Valid_Inputs">
+        <service folder="CICDWMAddition.services" name="add">
+            <input>
+                <file filename="resources/test/xml/data/input_positive.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/output_positive.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="TC_02_Empty_input">
+        <service folder="CICDWMAddition.services" name="add">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <exception class="com.wm.app.b2b.server.ServiceException"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
